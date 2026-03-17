@@ -1,0 +1,24 @@
+
+{
+  "skill_name": "project-map",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a code map for this Flask project",
+      "expected_output": "PROJECT_MAP.md with modules, dependency graph, and file change guide + PROJECT_MAP.html with working interactive visualization",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to understand the architecture of this Next.js app before making changes. Can you map it out?",
+      "expected_output": "Both MD and HTML maps generated with correct module groupings, React component tree captured as dependencies",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Map out the connections between files in my project so I know where to modify things",
+      "expected_output": "File Change Guide section with accurate modification targets, interactive graph showing dependency chains",
+      "files": []
+    }
+  ]
+}
